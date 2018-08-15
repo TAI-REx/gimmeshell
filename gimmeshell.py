@@ -43,9 +43,9 @@ def shell(ip,port,language):
 
 def main():
 	languages = ['bash', 'php', 'netcat', 'telnet', 'perl', 'perl-windows', 'ruby', 'java', 'python', 'gawk']
-	parser = argparse.ArgumentParser(description='Hands on the wheel reverse shell\'s =) all shells used on this script was taken from https://highon.coffee/blog/reverse-shell-cheat-sheet/')
-	parser.add_argument('-i', dest='ip', help='ip to listen to the connection (Ex: 192.168.0.1, 10.10.15.10)')
-	parser.add_argument('-p', dest='port', help='port to listen to the connection (Ex: 8080, 1337, 443)', type=int)
+	parser = argparse.ArgumentParser(description='Hands on the wheel reverse shell\'s =) all reverse shells used on this script was taken from https://highon.coffee/blog/reverse-shell-cheat-sheet/')
+	parser.add_argument('-i', dest='ip', help='ip address to connect (Ex: 192.168.0.1, 10.10.15.10)')
+	parser.add_argument('-p', dest='port', help='port to connect (Ex: 8080, 1337, 443)', type=int)
 	parser.add_argument('-l', dest='lang', help='programming language to use generate the revese shell (Ex: python, perl, php). if its not set, going to print them all')
 	parser.add_argument('-a', dest='avaiable', help='print list of avaiable programming languages to generate reverse shell.', action='store_true')
 	args = parser.parse_args()	

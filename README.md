@@ -13,8 +13,8 @@ pip install -r requirements
 
 optional arguments:
   -h, --help  show this help message and exit
-  -i IP       ip to listen to the connection (Ex: 192.168.0.1, 10.10.15.10)
-  -p PORT     port to listen to the connection (Ex: 8080, 1337, 443)
+  -i IP       ip address to connect (Ex: 192.168.0.1, 10.10.15.10)
+  -p PORT     port to connect (Ex: 8080, 1337, 443)
   -l LANG     programming language to use generate the revese shell (Ex:
               python, perl, php). if its not set, going to print them all
   -a          print list of avaiable programming languages to generate reverse
