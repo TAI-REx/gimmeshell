@@ -23,6 +23,6 @@ optional arguments:
 
 # Reverse Shells
 
-All reverse shells used in this script was taken from https://highon.coffee/blog/reverse-shell-cheat-sheet/
+All reverse shells used in this script have been taken from https://highon.coffee/blog/reverse-shell-cheat-sheet/
   
 
